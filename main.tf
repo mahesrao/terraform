@@ -1,6 +1,7 @@
-/*Provider*/
 provider "aws" {
   region     = "us-east-1"
+  access_key = "AKIAUMYXXCGSWCQTKO6X"
+  secret_key = "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"
 }
 /*Creation of VPC*/
 resource "aws_vpc" "green-vpc" {
